@@ -1,0 +1,82 @@
+{
+  // Workbench
+  "workbench.colorTheme": "Origamid Next",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.tree.indent": 16,
+  "workbench.editorAssociations": {
+    "git-rebase-todo": "default"
+  },
+
+  // Editor settings
+  "editor.fontSize": 16,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.formatOnSave": false,
+  "editor.bracketPairColorization.enabled": true,
+
+  // VSCode settings
+  "explorer.compactFolders": false,
+  "window.zoomLevel": 1,
+  "git.ignoreMissingGitWarning": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "typescript.preferences.quoteStyle": "single",
+  "javascript.preferences.quoteStyle": "single",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+
+  // Language-specific settings
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+  },
+
+  // Extensions
+  "material-icon-theme.folders.associations": {
+    "domain": "core",
+    "infra": "app",
+    "main": "public",
+    "presentation": "connection",
+    "cryptography": "secure",
+    "entities": "class",
+    "repositories": "mappings",
+    "protocols": "resource",
+    "useCases": "components",
+    "subcomponents": "components",
+    "adapters": "contract",
+    "factories": "container",
+    "globals": "global",
+    "ui": "views",
+    "sections": "views"
+  },
+  "prettier.singleQuote": true,
+  "workClock.startTime": "08:00",
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  }
+}
